@@ -1,2 +1,6 @@
 # psychological-characteristics-of-situations
-Code and data used to predict the psychological characteristics of situations
+Code and data used to predict the psychological characteristics and the priority of social situations. The code and data were used for the manuscript "Using Psychological Characteristics of Situations for Social Situation Comprehension in Support Agents".
+
+The file dimensions_priority.csv contains the data that can be used to predict the priority of social situations using as input the psychological characteristics (code can be found in: priority-optimization.ipynb.). The first 8 columns (A-H) represent the psychological characteristics of the situation, and the last column (I) represents the priority level of the situation. 
+
+The remaining csv files (adversity_with_features.csv, deception_with_features.csv, duty_with_features.csv, intellect_with_features.csv, mating_with_features.csv, negativity_with_features.csv, positivity_with_features.csv, sociality_with_features.csv) contain the data that can be used to predict the psychological characteristics of situations using as input the social situation features (code can found in: predict-dimensions-optimized.ipynb). In each file, the first 17 columns (A-Q) represent the social situation features, and the last column (R) represents one of the psychological characteristics of the situation.
